@@ -31,4 +31,8 @@ if __name__ == "__main__":
 
     tag(args.bucket, args.tagname, args.tagvalue)
 
+### Planned Modifications
+###     Allow default for --tagname and tagvalue to be "Name" and the Bucket Name respectively
+###     Only print the info when -v is set on, otherwise it's silent mode
+###     Overwrite tags by default but provide flag that says Do Not Overwrite
 
